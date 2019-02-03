@@ -1,0 +1,14 @@
+{
+  "name": "askJames-likeTweets",
+  "version": "1.0.0",
+  "description": "Sample application to show how to like positive tweets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Beswick",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}

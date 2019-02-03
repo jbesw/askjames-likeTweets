@@ -1,0 +1,20 @@
+service: askjames-likeTweets
+provider:
+  name: aws
+  runtime: nodejs8.10
+  memorySize: 128
+  timeout: 15
+  versionFunctions: false
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action: [
+        "comprehend:*"
+      ]
+      Resource: "*"
+
+functions:
+  tweetLiker:
+    handler: handler.likeTweets
+    events:
+      - schedule: rate(5 minutes)    
