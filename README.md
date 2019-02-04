@@ -1,7 +1,6 @@
 # Ask James - The "Like Tweets" Twitter Bot
 
-There is an article explaining the usage of this code here:
-https://medium.com/p/fbb6e528628/.
+There is an article explaining the usage of this code here: TBD.
 
 You can test out what happens by sending a positive tweet to @jbesw - you will receive an automatic like within 5 minutes from this bot.
 
