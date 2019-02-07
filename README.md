@@ -12,7 +12,7 @@ You can test out what happens by sending a positive tweet to @jbesw - you will r
 - [Support](#support)
 
 ## Installation
-W
+
 Clone and ```npm install``` in your downloaded directory.
 
 ## Usage
